@@ -25,7 +25,7 @@
 
 .topstar {
   animation: pulse 2s linear infinite;
-  width: 70%;
+  width: 100%;
   rotate: -6deg;
 }
 
@@ -36,9 +36,7 @@
   animation: pulse 3s linear infinite;
 }
 
-.botstar {
-  width: 60%;
-}
+
 
 .abbox {
   background-color: var(--transparent-gray);
@@ -133,13 +131,31 @@
 
 .frm.about-frm {
   bottom: -12%;
-  right: -20%;
+  right: -25%;
 }
 
 .frm.about-frm img {
-  width: 50%;
-  transform: rotate(25deg);
-  animation: rotatefull 20s linear infinite;
+  width: 60%;
+  animation: rock 7s ease-in-out infinite;
+}
+
+@keyframes rock {
+  0% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(25deg);
+  }
+}
+
+@media (max-width: 768px){
+  .domains{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px){
