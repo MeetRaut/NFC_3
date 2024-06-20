@@ -31,13 +31,15 @@ const Wihts = () => {
               here..
             </Link>
           </p>*/}
-
+          
+          {/*
           <div className="frm">
             <img
-              src="./images/images/R2_D2.png"
+              src="./images/images/parrot.png"
               alt="Hack the space Hackathon planet"
             />
           </div>
+          */}
           {/* <div className="asrt">
             <img
               src="/images/images/yoda.png"
